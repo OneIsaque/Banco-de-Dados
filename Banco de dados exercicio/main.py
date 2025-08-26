@@ -10,4 +10,3 @@ con.entrada = int(input("Senha (4 dígitos): "))
 time.sleep(2)
 os.system("cls" if os.name == "nt" else "clear")
 con.conta(saldo, saque, cheque_especial)
-
