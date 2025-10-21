@@ -1,0 +1,10 @@
+form {
+    background: #20232a;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+input, select {
+    margin: 5px 0;
+    padding: 8px;
+}
