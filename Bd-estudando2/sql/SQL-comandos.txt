@@ -1,0 +1,13 @@
+CREATE TABLE clientes (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(50) NOT NULL,
+    sobrenome VARCHAR(50) NOT NULL,
+    pais VARCHAR(50) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+use bdteste;
+TRUNCATE TABLE clientes;
+select *from clientes;
+
+ALTER TABLE clientes ADD senha VARCHAR(50);
