@@ -14,9 +14,11 @@ $result = $conn->query("SELECT * FROM clientes");
     <h3>Painel Administrativo</h3>
     
     <form method="post" action="php/inserir.php"> <!-- ajuste o action para seu inserir correto -->
-        <input type="text" name="nome" placeholder="Nome">
-        <input type="text" name="sobrenome" placeholder="Sobrenome">
-        <select name="pais">
+        <input type="text" name="nome" placeholder="Nome" required>
+
+        <input type="text" name="sobrenome" placeholder="Sobrenome" required>
+        
+        <select name="pais" required>
             <option value="australia">Austrália</option>
             <option value="canada">Canadá</option>
             <option value="usa">Estados Unidos</option>
