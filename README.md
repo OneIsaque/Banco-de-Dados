@@ -1,0 +1,3 @@
+## Redirecionamentos...
+
+* Acesse _[Estudo](https://github.com/OneIsaque/Banco-de-Dados/tree/OneIsaque-estudo-BD/Bd-estudando2)_ para ver estudo de banco de dados na web.
